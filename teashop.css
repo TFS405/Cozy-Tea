@@ -103,16 +103,23 @@ nav ul li {
 
 .centerHeader {
     display: flex;
+    font-size: 101%;
     flex-direction: column;
     justify-content: center;
-
+    margin-top: 1%;
+    margin-left: 40.2%;
+    margin-bottom: 3%;
 }
 
 .centerHeader h1 {
     font-size: 1.6em;
     margin-top: 5%;
     margin-bottom: 2%;
-    margin-right: -.8%;
+}
+
+.centerHeader h3 {
+    font-size: 1.3rem;
+    margin-left: -2%;
 }
 
 .imgFirstRow {
@@ -189,6 +196,32 @@ nav ul li {
 
 #footerImg {
     margin: 6% 1.2% 5%;
-    height: 39rem;
+    height: 38rem;
     width: 90%;
+}
+
+.textBoxOverlay1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 27.6%;
+    width: 22%;
+    top: 25%;
+    left: 11%;
+    opacity: 1;
+    /* margin-left: 0%; */
+    justify-content: center;
+    border-radius: 2%;
+}
+
+.textBoxOverlay1 h3 {
+    font-size: 2rem;
+    margin-left: 24%;
+    margin-bottom: 2%;
+}
+
+.textBoxOverlay1 p {
+    font-size: 1.2rem;
+    margin-left: 28%;
 }
