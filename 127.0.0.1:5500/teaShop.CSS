@@ -1,0 +1,111 @@
+* {
+    font-family: Helvetica;
+    font-size: 1.375rem;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    margin-bottom: 70px;
+    border-bottom: 1px solid seashell;
+    z-index: 10;
+}
+
+.logo {
+    padding: auto;
+    margin: 10px;
+    height: 50px;
+    width: auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: underline;
+    margin: 10px;
+    height: 50px;
+    color: seashell;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+#Locations {
+    margin-right: 10px;
+}
+
+.photo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+#Img1 {
+    padding-left: .35em;
+    height: 25.5em;
+    width: 94%;
+    margin-top: 3.05%;
+    transform: translate(2.1rem, 10px);
+    border: 1px solid black;
+}
+
+#textOverlay {
+    position: absolute;
+    display: flex;
+    top: 38.7%;
+    /* left: 50%; */
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 1.0);
+    opacity: 1.0;
+    border: #000000 solid .0625rem;
+    text-align: center;
+    height: 11.25%;
+    width: 97%;
+    z-index: 20;
+    overflow: hidden;
+    /* min-height: 1vh; */
+    flex-direction: column;
+    justify-content: center;
+}
+#textOverlay h2 {
+    font-size: 2rem;
+    padding-top: .2%;
+}
+
+#textOverlay h4 {
+    margin-top: .8%;
+    margin-bottom: .2%;
+    padding-bottom: 0px;
+    overflow: hidden;
+    font-size: 1em;
+    min-height: 1vh;
+    max-height: 20vh;
+}
+
+.centerContainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.centerContainer h1 {
+    FONT-VARIANT: JIS04;
+    font-size: 1.4em;
+    padding-top: 0.7em;
+}
