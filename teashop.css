@@ -2,7 +2,7 @@
     font-family: Helvetica;
     font-size: 1.375rem;
     color: seashell;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 1.0);
     opacity: 0.9;
     padding: 0px;
     margin: 0px;
@@ -188,7 +188,7 @@ nav ul li {
     margin-top: .8%;
 }
 
-.footerBackgroundImg {
+.footerBackgroundImg1 {
     display: flex;
     position: relative;
     justify-content: center;
@@ -209,19 +209,64 @@ nav ul li {
     width: 22%;
     top: 25%;
     left: 11%;
-    opacity: 1;
-    /* margin-left: 0%; */
-    justify-content: center;
-    border-radius: 2%;
+    /* opacity: 1; */
 }
 
 .textBoxOverlay1 h3 {
+    background-color: #ffffff00;
     font-size: 2rem;
     margin-left: 24%;
+    margin-right: 9%;
     margin-bottom: 2%;
+    /* font-size: 2rem; */
 }
 
 .textBoxOverlay1 p {
     font-size: 1.2rem;
     margin-left: 28%;
+    margin-right: 17%;
+}
+
+
+.textBoxOverlay2 {
+    position: absolute;
+    display: flex;
+    left: 131%;
+    width: 100.5%;
+    height: 100%;
+    opacity: 1;
+    text-align: center;
+    padding-right: 0%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textBoxOverlay2 h3 {
+    padding-bottom: 5%;
+    padding-top: 16%;
+    padding-right: 39%;
+    font-size: 2rem;
+    width: 27%;
+    text-align: center;
+    background-color: #ffffff00;
+}
+
+#txtBox2H3 {
+    font-size: 2rem;
+    padding-top: 9%;
+    padding-left: 26%;
+    width: 80%;
+    margin-top: 7%;
+    margin-bottom: -2%;
+}
+
+
+
+.textBoxOverlay2 p {
+    padding-right: 6%;
+    /* margin-left: -10%; */
+    width: 100%;
+    margin-left: 26%;
+    background-color: #ffffff00;
+    font-size: 1.2rem;
 }
